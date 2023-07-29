@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(to top, #810AD6, #000000);
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    background-attachment: fixed;
+   
+
+}
+
+.movimento {
+    margin-bottom: 93px;
+    padding-right: 50px;
+}
+
+.interface {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+h3 > a {
+    text-decoration: none;
+}
+h3 > a:hover {
+    color: black;
+}
+
+.login {
+    background-color: white;
+   
+}
+.clone {
+   
+    margin-top: 25px;
+    background-color: #810AD6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+   
+    
+}
+
+.principal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.cel {
+    margin-left: 150px;
+    
+   
+    
+}
+
+.logo {
+    position: absolute;
+    bottom: 60%;
+    left: 80%;
+
+}
+

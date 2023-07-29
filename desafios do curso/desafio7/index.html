@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+    <style></style>
+</head>
+<body>
+    <h1>Imagem Flexivel</h1>
+    <p>Você esta vendo a imagem completa? Experimente ampliar o tamanho da sua janaela para aproveitara melhor experiência!</p>
+    <picture>
+        <source media="(max-width: 750px)"  srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="imagem g">
+    </picture>
+</body>
+</html>

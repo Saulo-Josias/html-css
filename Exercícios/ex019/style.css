@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+/*
+    EM HTML TUDO QUE É 'ID', NO CSS É # (HASHTAG) 
+    EM HTML TUDO QUE É 'CLASS', NO CSS É . (PONTO)
+*/
+
+
+h1#Principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: rgb(73, 146, 72);
+}
+
+.basico {
+    color:  rgb(22, 145, 22);
+}
+
+.intermediario {
+    color: rgb(190, 190, 12);
+}
+
+.avancado {
+    color: rgb(180, 14, 14);
+}
+
+.destaque {
+    background-color: #c4c42693;
+}
