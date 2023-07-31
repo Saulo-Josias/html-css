@@ -3,20 +3,24 @@
 * {
     margin: 0px;
     padding: 0px;
+    
+    
+    
 }
 
-* {
+* p {
     line-height: 30px;
 }
 
 body {
     width: 100%;
-    background-color: lightgreen;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-indent: 30px;
     text-align: justify;
-    
+    background-color: lightslategray;
 }
+
+
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,7 +28,7 @@ p {
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.753), green);
+    background-image: linear-gradient(to bottom, #011f81, #1908D4);
 }
 
 header h1 {
@@ -42,11 +46,13 @@ header p {
     padding: 15px;
     font-size: 1.3em;
     color: white;
+    padding-bottom: 50px;
 }
 
 nav {
     padding: 5px;
-    background-color: green;
+    background-color: #1908D4;
+    padding: 20px;
 }
 
 nav > a {
@@ -55,18 +61,27 @@ nav > a {
     color: white;
     text-decoration: none;
     padding: 10px;
+    transition-duration: 0.5s;
+    
     
 }
 
 a:hover {
-    background-color: rgb(23, 236, 23);
-    color: rgba(0, 0, 0, 0.849);
-    transition-duration: 0.5s;
+    background-color: rgb(1, 10, 92);
+    color: white;
     border-radius: 5px;
 }
 
 main {
     padding: 10px;
+
+}
+
+
+div.tamanho {
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 main h1 {
@@ -76,20 +91,48 @@ main h1 {
     margin-bottom: 20px;
 }
 
+.main1 {
+    background-color: #015192cc;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; 
+    margin: -9px;
+}
+
+.article1 {
+    background-color: #1908D4;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 article h2 {
     text-align: center;
     padding-bottom: 20px;
+    margin-top: 10px;
    
+}
+
+.img1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 article > p {
     padding: 10px;
 }
 
+#aside1 {
+    line-height: 35px;
+    
+}
+
 aside h2 {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 10px;
+    margin-top: 10px;
 }
 
 aside ul {
@@ -97,8 +140,19 @@ aside ul {
     columns: 2;
 }
 
+div.aside {
+    margin: -2px;
+    padding: 10px;
+    background-color: #8333F5;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px;
+    border: 1px solid;
+}
+
 footer {
-    background-color: green;
+    background-color: #1908D4;
     color: white;
     text-align: center;
 }
