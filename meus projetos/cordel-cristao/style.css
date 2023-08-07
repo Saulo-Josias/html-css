@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Oswald', sans-serif;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: white;
+    color: black;
+    line-height: 2em;
+    min-height: 400vh;
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: var(--fonte2);
+    
+}
+
+header h1 {
+    font-variant: small-caps;
+    font-size: 3.5em;
+    padding-bottom: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    color: black;
+    font-family: var(--fonte3);
+}
+
+section.normal {
+    text-indent: 30px;
+   
+}
+
+section#img1 {
+    color: white;
+    background-image: url(img/girassol.jpg);
+    background-position: center center;
+    background-color: rgb(100, 97, 97);
+    box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.418);
+    text-indent: 30px;
+    background-attachment: fixed;
+}
+
+section#img2 {
+   color: white;
+    background-image: url(img/aguia.jpg);
+    background-position: left;
+    background-color: rgb(100, 97, 97);
+    box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.418);
+    text-indent: 30px;
+    background-attachment: fixed;
+}
+
+section > p {
+    padding-left: 30px;
+    padding: 20px;
+    line-height: 2em;
+    font-size: 3em;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte1);
+}
+
+footer > a {
+    font-family: var(--fonte2);
+    font-weight: bolder;
+}
+
+
