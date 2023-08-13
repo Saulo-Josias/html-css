@@ -22,7 +22,7 @@ div.box {
 }
 h3, h5 {
     color: white;
-    
+
 }
 h3 {
     padding-top: 50px;
@@ -54,4 +54,5 @@ button:hover {
 }
 a {
     color: white;
+    font-weight: bolder;
 }
