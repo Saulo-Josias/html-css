@@ -261,10 +261,10 @@ input {
     text-align: center;
     padding: 10px;
 }
-a {
+ footer > p > a {
     color: white;
     text-decoration: none;
 }
-a:hover {
+footer > p > a:hover {
     color: blue;
 }
