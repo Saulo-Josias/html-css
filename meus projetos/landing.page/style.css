@@ -64,6 +64,7 @@ div.box1 > p  {
     margin-right: 30px;
     cursor: pointer;
     transition-duration: 0.5s;
+    border-radius: 5px;
 }
 .button1 > a {
     text-decoration: none;
@@ -83,6 +84,7 @@ div.box1 > p  {
     margin-bottom: 30px;
     cursor: pointer;
     transition-duration: 0.5s;
+    border-radius: 5px;
 }
 .button2 > a {
     text-decoration: none;
@@ -236,6 +238,8 @@ input {
     margin-bottom: 30px;
     cursor: pointer;
     transition-duration: 0.5s;
+    margin-right: 30px;
+    border-radius: 5px;
 }
 .sectionbutton2 {
     background-color: #F1C50E;
@@ -248,6 +252,7 @@ input {
     margin-bottom: 30px;
     cursor: pointer;
     transition-duration: 0.5s;
+    border-radius: 5px;
 }
 .sectionbutton1:hover {
     background-color: lightgray;
@@ -258,7 +263,7 @@ input {
 
 .footer1 {
     color: white;
-    background-color: black;
+    background-color: #333333;
     text-align: center;
     padding: 10px;
 }
@@ -267,5 +272,5 @@ input {
     text-decoration: none;
 }
 footer > p > a:hover {
-    color: blue;
+    color: rgb(0, 238, 255);
 }
