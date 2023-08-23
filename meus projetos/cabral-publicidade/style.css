@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+main {
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+header {
+    padding: 20px;
+    margin-left: -260px;
+    margin-right: -260px;
+    background-image:linear-gradient(to bottom, violet, purple);
+    text-align: center;
+    min-height: 150px;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
+      
+}
+
+header p {
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+nav {
+    background-color: purple;
+    padding: 10px;
+}
+
+header nav {
+    display: inline-block;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;  
+    transition-duration: .5s;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+nav > a:hover {
+    background-color: black;
+    color: yellow;
+    transition: 0.5s;
+}
+
+#section-foto {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+}
+
+.div1 {
+    text-align: center;
+
+}
+button {
+    padding: 15px 50px;
+    margin-bottom: 70px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.527);
+}
+
+button:hover {
+    background-color: rgba(128, 0, 128, 0.842);
+}
+
+footer {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 5px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
