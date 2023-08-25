@@ -23,8 +23,6 @@ main {
 
 header {
     padding: 20px;
-    margin-left: -260px;
-    margin-right: -260px;
     background-image:linear-gradient(to bottom, violet, purple);
     text-align: center;
     min-height: 150px;
@@ -108,6 +106,12 @@ button {
 
 button:hover {
     background-color: rgba(128, 0, 128, 0.842);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
 }
 
 footer {
