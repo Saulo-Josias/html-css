@@ -123,6 +123,7 @@ section {
 img {
     border-radius: 50%;
     height: 250px;
+    background-position: center center;
 }
 
 footer {
