@@ -1,6 +1,4 @@
 
-/* Configurações gerais */
-
 * {
     margin: 0;
     padding: 0;
@@ -20,3 +18,24 @@ h1 {
     text-shadow: 2px 2px 0px #1526a7;
     padding: 10px;
 }
+
+/* Declarações retrato */
+@media screen and (orientation: portrait) {
+    body {
+background-image: url(../imagens/cev-portrait.jpg);
+background-position: center bottom;
+}
+
+}
+
+/* Declarações paisagem */
+@media screen and (orientation: landscape) {
+    body {
+background-image: url(../imagens/cev-landscape.jpg);
+background-position: left bottom;
+}
+
+}
+
+
+
