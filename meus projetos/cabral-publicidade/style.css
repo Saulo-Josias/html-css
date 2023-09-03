@@ -1,10 +1,5 @@
 
 
-@media screen and (orientation: portrait) and (max-width: 768px) {
-    body, main, img {
-        background-image: url(./img/img.cb.png);
-    }
-}
 
 * {
     margin: 0;
