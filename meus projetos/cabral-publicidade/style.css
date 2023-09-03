@@ -4,6 +4,8 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
     body {
         background-image: url(./img/img.cb.png);
+        background-size: cover;
+        background-position: center center;
     }
 }
 * {
