@@ -1,5 +1,10 @@
 
 
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url(./img/img.cb.png);
+    }
+}
 
 * {
     margin: 0;
