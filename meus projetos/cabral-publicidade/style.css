@@ -83,6 +83,8 @@ nav > a:hover {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     width: 400px;
     margin-top: 30px;
 }
