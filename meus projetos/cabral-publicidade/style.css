@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 1080px) and (orientation: portrait) {
     /* Estilos para orientação vertical */
     img {
       max-width: 100%;
@@ -16,7 +16,7 @@
         text-align: center;
         margin-right: 10px;
         margin-left: 10px;
-        font-size: 1.5em;
+        font-size: 16px;
     }
   }
   
