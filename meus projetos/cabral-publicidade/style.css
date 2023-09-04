@@ -23,11 +23,6 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
-    body {
-        background-image: url(./img/img.cb.png);
-    }
-}
 
 body {
     overflow-x: hidden;
