@@ -5,6 +5,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .box1, .box2, .box3 {
+        display: inline-block;
+        margin-right: 200px;
+        padding: 200px;
+        max-width: 100%;
+        width: auto;
+    }
+}
+
 body {
     background-color: white;
 }
@@ -88,6 +98,7 @@ main h2 {
 }
 
 .buttons:hover {
+    transition: .5s;
     background-color: black;
     color: yellow;
 }
