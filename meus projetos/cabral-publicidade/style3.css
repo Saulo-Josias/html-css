@@ -5,16 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Estilos para telas menores (media query) */
-@media screen and (max-width: 768px) {
-    .sua-div {
-        width: 100%; /* Defina a largura para ocupar toda a largura da tela */
-        margin: 10px 0; /* Ajuste as margens conforme necessário */
-        /* Outros estilos para telas menores */
-    }
-}
-
-
 body {
     background-color: white;
 }
