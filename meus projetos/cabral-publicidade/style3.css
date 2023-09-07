@@ -5,12 +5,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 1080px) and (orientation: portrait) {
-    .box1, .box2, .box3 {
-        max-width: 100%;
-        width: auto;
+/* Estilos para telas menores (media query) */
+@media screen and (max-width: 768px) {
+    .sua-div {
+        width: 100%; /* Defina a largura para ocupar toda a largura da tela */
+        margin: 10px 0; /* Ajuste as margens conforme necessário */
+        /* Outros estilos para telas menores */
     }
 }
+
 
 body {
     background-color: white;
