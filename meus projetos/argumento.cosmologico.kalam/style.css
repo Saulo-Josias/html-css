@@ -18,6 +18,7 @@ main {
     padding: 15px;
     border: 1px solid black;
     box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
 }
 h1 {
     text-align: center;
@@ -35,4 +36,5 @@ footer > a {
 footer > a:hover {
     text-decoration: underline;
     color: green;
+    transition-duration: .5s;
 }
