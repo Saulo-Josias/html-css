@@ -34,10 +34,12 @@ body {
 .section1 {
     color: white;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .section2 {
     color: #6F8631;
+    font-weight: bolder;
 }
 .container-box img {
     border-radius: 50%;
