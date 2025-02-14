@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: #000;
+}
+
+.nav1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 210px;
+    transform: translateX(-10%);
+    transform: translateY(-2%);
+    margin: 30px;
+    padding: 0px 10px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: 'Monda', sans-serif;;
+}
+
+header > h1 > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > h1 > a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .5s ease 0s;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+header > nav > a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+header > nav > a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all .5s ease 0s;
+    border-radius: 10px;
+}
+
+.container2 {
+    color: #fff;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+
+}
+
+.container3 > figure > img {
+    position: relative;
+    width: 100%;
+    padding: -50px;
+}
